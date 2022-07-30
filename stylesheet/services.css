@@ -1,0 +1,92 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.5)),
+    url(https://s7d2.scene7.com/is/image/ritzcarlton/RCGNDCA_00228?$XlargeViewport100pct$);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: white;
+}
+
+.back {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.5));
+  margin-top: 70px;
+  padding: 6px 6px;
+  z-index: -2;
+}
+
+img {
+  border-radius: 50%;
+  padding-top: 30px;
+}
+.image {
+  float: left;
+  padding: 20px 20px;
+  text-align: center;
+  padding-left: 110px;
+  opacity: 1;
+  float: left;
+  position: relative;
+  margin-top: 200px;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Bungee", cursive;
+  animation-name: title;
+  animation-duration: 3s;
+}
+
+img:hover {
+  opacity: 0.7;
+  transition: 0.2s ease;
+  backface-visibility: hidden;
+  transform: scale(1.05);
+}
+
+.text {
+  position: relative;
+}
+
+h2 {
+  font-family: "Playball", cursive;
+  font-size: 35px;
+}
+
+@keyframes title {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+h5 {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+@keyframes move {
+  0% {
+    margin-top: 250px;
+  }
+
+  100% {
+    margin-top: 100px;
+  }
+}
+
+@keyframes hover {
+  0% {
+  }
+}
