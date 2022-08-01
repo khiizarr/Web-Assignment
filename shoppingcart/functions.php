@@ -1,4 +1,5 @@
 <?php
+
 function pdo_connect_mysql()
 {
     // 
@@ -31,7 +32,7 @@ function template_header($title)
                 <h1><a href="index.php" style="text-decoration: none">MK Event Cart</a></h1>
                 <nav>
                     <a href="../services.php">Home</a>
-                    <a href="index.php?page=products">Venues</a>
+                    <a href="../book/index.php?page=venue">Venues</a>
                 </nav>
                 <div class="link-icons">
                     <a href="index.php?page=cart">

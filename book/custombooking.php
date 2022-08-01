@@ -67,16 +67,10 @@
             method: 'POST',
             type: 'POST',
             success: function(resp) {
-                if (resp == 1) {
-                    alert_toast("Book Request Sent.", 'Success')
+                alert_toast("Book Request Sent.", 'Success')
                     end_load()
                     uni_modal("", "book_msg.php")
-
-                } else {
-                    alert_toast("Book Request Sent.", 'Success')
-                    end_load()
-                    uni_modal("", "book_msg.php")
-                }
+                    window.location.href = "../shoppingcart/index.php?page=cart";
             }
         })
     })

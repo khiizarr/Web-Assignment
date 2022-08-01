@@ -74,9 +74,9 @@ li a {
 
 .hero {
   background: url(https://s7d2.scene7.com/is/image/ritzcarlton/RCGNDCA_00228?$XlargeViewport100pct$);
-  background-repeat: no-repeat;
+
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
   height: 100vh;
   color: #fff;
   display: flex;
