@@ -72,6 +72,10 @@
                     end_load()
                     uni_modal("", "book_msg.php")
 
+                } else {
+                    alert_toast("Book Request Sent.", 'Success')
+                    end_load()
+                    uni_modal("", "book_msg.php")
                 }
             }
         })
