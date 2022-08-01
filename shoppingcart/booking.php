@@ -56,7 +56,6 @@
 					alert_toast("Book Request Sent.", 'Success')
 					end_load()
 					uni_modal("", "book_msg.php")
-					window.location.href = "../shoppingcart/index.php?page=cart";
 
 				}
 			}

@@ -163,8 +163,14 @@ include 'admin/db_connect.php';
     // })
     $('.book-venue').click(function() {
         uni_modal("Submit Booking Request", "booking.php?venue_id=" + $(this).attr('data-id'))
+
     })
     $('.venue-list .carousel img').click(function() {
         viewer_modal($(this).attr('src'))
+
+    })
+
+    $('.btn-primary').submit(function() {
+        uni_modal(window.location.href = "www.paypal.com")
     })
 </script>

@@ -28,7 +28,7 @@
         <ul class="box">
           <li class="link_name">Company</li>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="contactus.php">Contact us</a></li>
           <li><a href="#">About us</a></li>
         </ul>
         <ul class="box">

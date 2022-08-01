@@ -70,8 +70,8 @@ if (isset($_POST['submit'])) {
 
             <input type="submit" value="Register" name="submit" />
 
-    </div>
-    </form>
+        </div>
+        </form>
     </div>
 </body>
 

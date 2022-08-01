@@ -84,6 +84,7 @@ function getCalender($year = '', $month = '')
 			</ul>
 		</div>
 	</div>
+
 	<script type="text/javascript">
 		function getCalendar(target_div, year, month) {
 			$.ajax({
@@ -143,7 +144,15 @@ function getCalender($year = '', $month = '')
 		});
 		$(document).ready(function() {
 			$('.date_cell').click(function() {
-				window.location.href = "shoppingcart/index.php";
+
+				// alert("You have selected an inappropriate date, please select another date!");
+				window.location.href = "book/index.php?page=venue";
+				var dd = int(today.getDate()).padStart(2, '0');
+				if ($('.date_cell').val() < dd) {
+					alert("You have selected an inappropriate date, please select another date!");
+				} else {
+					window.location.href = "book/index.php?page=venue";
+				}
 			});
 			$('.date_cell').mouseleave(function() {
 				$(".date_popup_wrap").fadeOut();

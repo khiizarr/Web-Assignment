@@ -174,6 +174,7 @@ include('header.php');
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <!-- <button type="button" class="btn btn-tertiary" onclick> -->
                 </div>
             </div>
         </div>
@@ -230,5 +231,7 @@ include('header.php');
 </body>
 
 <?php $conn->close() ?>
+
+
 
 </html>

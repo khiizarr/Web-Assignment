@@ -129,4 +129,7 @@ if ($products_in_cart) {
     </form>
 </div>
 
+
+
+
 <?= template_footer() ?>
