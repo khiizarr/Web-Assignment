@@ -1,5 +1,6 @@
 <?php
 include 'admin/db_connect.php';
+include 'function.php';
 ?>
 <style>
     #portfolio .img-fluid {
@@ -76,6 +77,7 @@ include 'admin/db_connect.php';
                 $rtl = 'rtl';
                 $ci = 0;
                 $venue = $conn->query("SELECT * from venue where category = 'wedding'");
+                //$venue = $conn->query("SELECT * from venue v,venue_booking vb where v.id = vb.venue_id and v.category = 'wedding' and vb.availability = 0 and <?php $('.date_cell').val() ? != vb.datetime");
                 while ($row = $venue->fetch_assoc()) :
 
                     $ci++;
